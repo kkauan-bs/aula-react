@@ -1,0 +1,12 @@
+// Modelo para um novo exercício.
+// Copie este arquivo para algo como "04-meu-exercicio.jsx" (sem o .txt).
+// O número no início define a ordem no menu.
+
+import { useState } from 'react'
+
+export const titulo = '04 · Meu exercício'
+export const descricao = 'O que este exercício treina.'
+
+export default function Exercicio() {
+  return <p>Escreva seu componente aqui.</p>
+}
